@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;1,400&display=swap');
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-login {
+    /* uso da Width 100vw foi para coloca o main-login numa largura deseja ao site*/
+    width: 100vw;
+    /* uso da hight 100vh foi para coloca o main-login numa altura deseja ao site*/
+    height: 100vh;
+    /* background colocamos para da um fundo ao sit*/
+    background: #1f1b2b;
+    /* o display flex foi usado para coloca os conteudos lado a lado da pagina */
+    display: flex;
+    /*  para organiza nos items no eixo X usamos o justify-content center , existi flex start ( para esquerda), End (para direita), center (orgazina as coisa no centro), space between(ele vai cria um espaço para todos os elementos) e around ( cria um espaço so que menor)*/
+    justify-content: center;
+    /* e para justifica no eixo y usamos o aling-items center */
+    align-items: center
+}
+
+.left-login-img {
+    width: 35vw;
+}
+
+.lef-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* o felx direction e para colocamos um conteudo abaixo do outro se no caso voce tive usando o attr display felx, ai voce usaria esse attr */
+    flex-direction: column;
+}
+
+.lef-login>h1 {
+    font-size: 3vw;
+    color: #77ffc0;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* o padding ele serve para da uma larguda dos conteudos internos da classe usada ou tag,  o primeiro valor que voce colocar refere a  EIXO Y e cima e abaixo, e o segundo para o EIXO X para os lados */
+    padding: 30px 35px;
+    background: #2f2841;
+    /* a border radius serve para da um disgn mas arredondado nas bordas do conteudos quadrado ou etc. */
+    border-radius: 20px;
+    /* o box shadow serve para coloca uma sombra na nosso card de login , caixa de texto , o Primeiro valor referece ao eixo X para os lados, o segundo ao eixo Y se a sombra vai pra cima ou pra baixo, eo terceiro valor que vai se expandi , e o quarto e a cor que a sombra vai ter  */
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login>h1 {
+    color: #00ff88;
+    /* font wight ela e o peso da fonte a grossura da fonte */
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*  o align items e para uso dos eixo y que e para cima e para baixo , quando usamo dentro desça classe align itens com flex direction, isso se inverte o align item fica como eixo X que e para os lados)*/
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    /*para pode tira a caixa que visualiza voce selecionado algo no nosso card voce usara outline*/
+    outline: none;
+    /* quando voce ver que o card esta passando a mais do seu attr padding voce usara esse atributo */
+    box-sizing: border-box;
+    /*e assim meio que vai ter meio que uma  colisão entre a div filho com a div pai, e ai a div filho jamais vai ultrapassa o tamanho da div pai*/
+}
+
+
+/*colocando a cor da tag label que são ( Usuario e Senha) */
+
+.textfield>label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+
+/* colocando a cor do nome (Senha) de dentro do input */
+
+.textfield>input::placeholder {
+    color: #f0ffff94;
+}
+
+
+/* dando disgn no botão de logar (Login)*/
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    /* para voce que voce queira coloca as letras em maisculos, so que ela estao em menusculo voce ira usar*/
+    text-transform: uppercase;
+    font-weight: 800;
+    /* coloca espaçamento entre as letras voce usara letter-spacing e coloque o valor que voce quiser*/
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+
+/* o que quer dizer isso, eu to dizendo para o css enquanto for na tela uma largura de 950px adicione os elementos que vou colocar agora*/
+
+@media only screen and (max-width: 950px) {
+
+
+/* card- login 60% na classe, mas  o que eu quero dizer que quando a tela for menor que 950px, ele deve um tamanho de 85%*/
+
+.card-login {
+    width: 85%;
+}
+}
+
+/* agora essa media aqui e para celulares e telas menores ai voce usar esse elementos abaixo*/
+
+@media only screen and (max-width: 600px) {
+
+
+/* colocamos um conteudo de baixo do outro */
+
+.main-login {
+    flex-direction: column;
+}
+
+
+/* como e para celula nao precisa de muita informação, tiramos os nome que estava no h1 para que fica melhor visualização*/
+
+.lef-login>h1 {
+    /* o display none ele oculta as coisa do nosso HTML*/
+    display: none;
+}
+
+.lef-login {
+    width: 100%;
+    height: auto;
+}
+
+.right-login {
+    width: 100%;
+    height: auto;
+}
+
+
+/*aumetando a imagens*/
+
+.left-login-img {
+    width: 40vh;
+}
+
+
+/* e para que o nosso card não oculpe toda tela usara esses atrr*/
+
+
+/* caso nao mude nada voce ira fazer o seguinte vai no body  la encima e coloque os elementos box-sizing: border-box mas antes disso voce chama o body e dps coloca o */
+
+.card-login {
+    width: 90%;
+}
+}
