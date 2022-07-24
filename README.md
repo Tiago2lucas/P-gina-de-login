@@ -1,4 +1,4 @@
-# P-gina-de-login
+# Pá-gina-de-login
 ***Uma Página de login,***
 com varios efeitos em  HMTL e CSS3, para uso de qualquer empresa que tenha plataforma On-line.
 
@@ -8,12 +8,12 @@ com varios efeitos em  HMTL e CSS3, para uso de qualquer empresa que tenha plata
 
 
 
-*Aqui Ao  temos Nosso detalhamentos ne com uma imangens.*
+*Aqui temos varios detalhamentos ne com uma imagens.*
 
 
 ![image](https://user-images.githubusercontent.com/108035638/180666877-46d94bea-6712-4ffa-916d-1a1abc528693.png)
 
-*Veja Agora por Completo*
+*Veja Agora o site Completo*
 
 
 ![image](https://user-images.githubusercontent.com/108035638/180666921-48850351-aa20-4a47-99ba-c13f28c49e2f.png)
