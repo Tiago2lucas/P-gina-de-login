@@ -1,6 +1,6 @@
 # Pá-gina-de-login
 ***Uma Página de login,***
-com varios efeitos em  HMTL e CSS3, para uso de qualquer empresa que tenha plataforma On-line.
+ varios efeitos em  HMTL( linguagem de marcação) e para o Estilo da Página CSS3, para uso de qualquer empresa  que tenha plataforma On-line :woman_technologist:.
 
 *Aqui temos o nosso Card Bem elaborado e bem Simples com detalhes e sombras, detalhes Neon.*
 
@@ -8,7 +8,7 @@ com varios efeitos em  HMTL e CSS3, para uso de qualquer empresa que tenha plata
 
 
 
-*Aqui temos varios detalhamentos ne com uma imagens.*
+*Aqui temos varios detalhamentos ne com uma imagens:framed_picture:.*
 
 
 ![image](https://user-images.githubusercontent.com/108035638/180666877-46d94bea-6712-4ffa-916d-1a1abc528693.png)
