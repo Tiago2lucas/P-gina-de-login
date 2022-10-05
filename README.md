@@ -8,12 +8,12 @@
 
 
 
-*Aqui temos varios detalhamentos ne com uma imagens:framed_picture:.*
+*Aqui temos varios detalhamentos ne com uma imagen:framed_picture:.*
 
 
 ![image](https://user-images.githubusercontent.com/108035638/180666877-46d94bea-6712-4ffa-916d-1a1abc528693.png)
 
-*Veja Agora o site Completo*
+*Veja Agora Página completa com o Card, login, e animação*
 
 
 ![image](https://user-images.githubusercontent.com/108035638/180666921-48850351-aa20-4a47-99ba-c13f28c49e2f.png)
